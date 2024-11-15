@@ -1,0 +1,172 @@
+.about{
+    display:flex;
+    font-family:"poppins",sans-serif;   
+    justify-content:center;
+    padding:3vmin 3vmin;
+    align-content:center;
+    gap:10vmin;
+    align-items:center;
+}
+
+
+
+
+
+
+.about .content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:start;
+    align-items:start;
+    line-height:1;
+}
+
+
+
+
+.content h6{
+    font-size:0.9em;
+    letter-spacing:2.5px;
+    margin-bottom:1vmin;
+    font-weight:400;
+    font-family:"poppins",sans-serif;
+    text-transform:uppercase;
+}
+
+
+.content h6 span{
+    color:red;
+}
+
+
+.content h2{
+    margin-top:0;
+    font-size:2em;
+    font-weight:500;    
+}
+
+
+.content p {
+    margin-top:1.2vmin;
+    line-height:1.4;
+    width:550px;
+    color:#838383;
+    font-size:0.9em;
+}
+
+
+.content a{
+    text-decoration:none;
+    padding:1.6vmin 4vmin;
+    background-color:black;
+    color:white;
+    letter-spacing:1px;
+    margin-top:1.2vmin;
+    transition:all 1s ease;
+    border:1px solid black;
+}
+
+
+.content a:hover{
+    background:transparent;
+    color:black;
+    border:1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+ 
+
+.content h2{
+    font-size:1.8em;
+}
+
+.content p {
+    width:450px;
+    font-size:0.75em;
+}
+
+.about{
+    gap:5vmin;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .about{
+        display:flex;
+        flex-direction:column;
+        gap:10vmin;
+    }
+
+    
+.about .content{
+    align-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.content h2{
+    font-size:1.7em;
+}
+
+.content p {
+    width:400px;
+    font-size:0.75em;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+
+    .content h6{
+        font-size:0.75em;
+    }
+.content h2{
+    font-size:1.2em;
+}
+
+.content p {
+    width:290px;
+    font-size:0.6em;
+    margin-top:4vmin;
+}
+
+.about .content{
+    margin-top:5vmin;
+}
+
+.content a {
+    margin-top:4vmin;
+    padding:2.5vmin 7vmin;
+}
+    
+}

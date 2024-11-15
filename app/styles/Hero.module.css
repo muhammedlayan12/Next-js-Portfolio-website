@@ -1,0 +1,177 @@
+.hero{
+    display:flex;
+    font-family:"poppins",sans-serif;   
+    justify-content:center;
+    padding:3vmin 3vmin;
+    align-content:center;
+    gap:5vmin;
+    align-items:center;
+}
+
+
+
+.hero img{
+    transform: scaleX(-1);
+}
+
+
+
+
+.hero .content{
+    display:flex;
+    flex-direction:column;
+    margin-left: 3vmin;
+    justify-content:center;
+    text-align:start;
+    align-items:start;
+    line-height:1;
+}
+
+
+
+
+.content h6{
+    font-size:0.9em;
+    letter-spacing:2.5px;
+    font-weight:400;
+    font-family:"poppins",sans-serif;
+    text-transform:uppercase;
+}
+
+
+.content h6 span{
+    color:red;
+}
+
+
+.content h2{
+    margin-top:0;
+    font-size:2.5em;
+    font-weight:500;    
+}
+
+
+.content p {
+    margin-top:1.2vmin;
+    line-height:1.4;
+    width:550px;
+    color:#838383;
+    font-size:0.9em;
+}
+
+
+.content a{
+    text-decoration:none;
+    padding:1.6vmin 4vmin;
+    background-color:black;
+    color:white;
+    letter-spacing:1px;
+    margin-top:1.2vmin;
+    transition:all 1s ease;
+    border:1px solid black;
+}
+
+
+.content a:hover{
+    background:transparent;
+    color:black;
+    border:1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+ 
+
+.content h2{
+    font-size:1.9em;
+}
+
+.content p {
+    width:390px;
+    font-size:0.75em;
+}
+
+.hero{
+    justify-content: center;
+    gap:1vmin;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .hero{
+        display:flex;
+        flex-direction:column-reverse;
+        gap:10vmin;
+    }
+
+    
+.hero .content{
+    align-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.content h2{
+    font-size:1.6em;
+}
+
+.content p {
+    width:360px;
+    font-size:0.75em;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+
+    .content h6{
+        font-size:0.75em;
+    }
+.content h2{
+    font-size:1.2em;
+}
+
+.content p {
+    width:290px;
+    font-size:0.6em;
+    margin-top:4vmin;
+}
+
+.hero .content{
+    margin-top:5vmin;
+}
+
+.content a {
+    margin-top:4vmin;
+    padding:2.5vmin 7vmin;
+}
+    
+}
